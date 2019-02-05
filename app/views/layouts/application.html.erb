@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+      table, td, th {
+          border: 1px solid black;
+          text-align: center;
+      }
+
+      table {
+          border-collapse: collapse;
+          width: 100%;
+          border: solid black
+      }
+
+      th, td {
+          padding: 15px;
+      }
+
+      
+</style>
     <title>SAD Assignment 1</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -9,7 +27,7 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body style="background-color:#d3dcd1">
     <%= yield %>
   </body>
 </html>
