@@ -28,7 +28,7 @@ class InfosController < ApplicationController
 
     respond_to do |format|
       if @info.save
-        format.html { redirect_to @info, notice: 'Info was successfully created.' }
+        format.html { redirect_to @info, notice: 'User Information was successfully created.' }
         format.json { render :show, status: :created, location: @info }
       else
         format.html { render :new }
@@ -56,7 +56,7 @@ class InfosController < ApplicationController
   def destroy
     @info.destroy
     respond_to do |format|
-      format.html { redirect_to infos_url, notice: 'Info was successfully destroyed.' }
+      format.html { redirect_to infos_url, notice: 'Info was successfully deleted.' }
       format.json { head :no_content }
     end
   end
