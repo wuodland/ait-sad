@@ -1,5 +1,5 @@
 # AIT Software Architecture Design, Assignment 1
-
+Our project is to do with creating and storing user-information of data. We store various fields such as first name, last name and so forth.
 ### Team-members and Responsibilities:
 
 * Abhinav Singha, 120278 <br/>
